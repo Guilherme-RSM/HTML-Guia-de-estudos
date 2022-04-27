@@ -1,0 +1,60 @@
+/*IMPORTANDO FONTES DO GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+/*RESET*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body {
+}
+
+.cabecalho {
+    background:#afcf40;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    box-shadow:5px 2px 20px rgba(0, 0, 0, 0.466);
+    filter:saturate(40%);
+    
+    
+}
+
+.cabecalho img {
+    width:20%;
+}
+#descricao {
+    width: 100%;
+    background:#000;
+    text-align:center;
+    color:#fff;
+    font-size:0.8em;
+}
+
+.alinhamento-padrao {
+    width:70%;
+    margin:0 auto;
+    
+}
+h1 {
+    text-align:center;
+}
+
+details {
+    margin:30px;
+}
+
+.sumary-title {
+    font-weight:700;
+    cursor:pointer;
+}
+
+.sumary-title:hover {
+    color:#8aad0a;
+    transition:0.3s;
+}
+.texto-grifado {
+    background-color: #b8c58c65;
+}
